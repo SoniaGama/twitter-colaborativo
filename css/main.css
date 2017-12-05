@@ -1,0 +1,70 @@
+body {
+  background-attachment: fixed;
+  background-image: url(../assets/images/unicorn-hi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FF617E;
+  color: white;
+  margin: 0;
+  opacity: 0.9;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+hr {
+  background-color: #7BFCDE;
+  border: 0 none;
+  color: #eee;
+  height: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+a {
+  color: #7BFCDE;
+  text-decoration: none;
+}
+
+section#presentation {
+  background-color: #FF84AE;
+  border-radius: 10px;
+  color: white;
+  margin-left: 4%;
+  opacity: 0.9;
+  padding: 10px;
+  width: 43%;
+}
+
+#button {
+  background-color: #7BFCDE;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+}
+
+.old {
+  float: right;
+  display: block;
+  margin-top: -45px;
+}
+
+.one {
+  display: inline-block;
+  margin-top: 50px;
+  vertical-align: top;
+}

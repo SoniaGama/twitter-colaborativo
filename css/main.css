@@ -24,7 +24,6 @@ h1 {
 hr {
   background-color: #7BFCDE;
   border: 0 none;
-  color: #eee;
   height: 5px;
   margin: 0;
   margin-bottom: 10px;
@@ -36,25 +35,78 @@ a {
   text-decoration: none;
 }
 
+form {
+  background-color: #FF84AE;
+  border-radius: 10px;
+  height: 318px;
+  width: 600px;
+}
+
+span {
+  float: right;
+  font-weight: 500;
+  padding: 30px;
+  text-align: right;
+}
+
+textarea {
+  background-color: #FF84AE;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  height: 100px;
+  margin: 0 auto;
+  opacity: 0.9;
+  outline: none;
+  overflow-y: hidden;
+  padding-left: 20px;
+  padding-top: 20px;
+  resize: auto;
+  width: 88.5%;
+}
+
 section#presentation {
   background-color: #FF84AE;
   border-radius: 10px;
   color: white;
+  height: 300px;
   margin-left: 4%;
   opacity: 0.9;
   padding: 10px;
-  width: 43%;
+  width: 40%;
 }
 
 #button {
   background-color: #7BFCDE;
+  border: 0;
   border-radius: 10px;
   color: white;
-  display: block;
+  display: inline-block;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   height: 50px;
+  margin: 20px;
   width: 100px;
+}
+
+#container {
+  margin-left: 55px;
+}
+
+#counter {
+  display: inline-block;
+}
+
+.hrBtn {
+  border: 0 none;
+  height: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 12px;
+  width: 95%;
 }
 
 .old {
@@ -67,4 +119,26 @@ section#presentation {
   display: inline-block;
   margin-top: 50px;
   vertical-align: top;
+}
+
+.twitterStyle {
+  background-color: white;
+  border: none;
+  /*border-radius: 3px;*/
+  color: #FF84AE;
+  margin: 0;
+  margin-left: 15%;
+  text-align: left;
+  width: 70%;
+}
+
+.timeStyle {
+  background-color: white;
+  border: none;
+  /*border-radius: 3px;*/
+  color: #FF84AE;
+  margin-bottom: 0;
+  margin-left: 15%;
+  text-align: left;
+  width: 70%;
 }

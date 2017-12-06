@@ -6,7 +6,6 @@ var span = document.getElementById("counter");
 
 //Crear Elementos
 var containerTweet = document.createElement('section');
-
 //Agregar eventos
 button.addEventListener('click', showTweet);//la madre de todos
 textarea.addEventListener('keyup', toDisable);//desabilitar boton
@@ -39,6 +38,8 @@ function showTweet(event){
   var tweet = textarea.value;//variable que guarda el mensaje del usuario
   var tweetParagraph = document.createElement('p');//crear Elementos
   var timeParagraph =  document.createElement('p');//contenedor de reloj
+  tweetParagraph.className = "twitterStyle"
+  timeParagraph.className = "timeStyle"
 
   //agragamos contenido a los Elementos
   var textTweet = tweetParagraph.innerText = tweet; //agregar el mensaje del usuario como contenido del parrafo
@@ -68,15 +69,15 @@ function colorChangeCounter(event){
  span.textContent = newCounter; // Cambiando el contenido del elemento span
  // Cambiando el color en base a cuántos caracteres disponibles quedan
  if (newCounter < 20){
-   span.style.color = "yellow";
+   span.style.color = "#FFF85A";
  }
  if(newCounter < 10){
-   span.style.color = "orange";
+   span.style.color = "#7BFCDE";
  }
    if(newCounter < 0){
-   span.style.color = "red";
+   span.style.color = "white";
  }
  if(newCounter > 20){
-   span.style.color = "#CDB3E8";
+   span.style.color = "black";
  }
 }
